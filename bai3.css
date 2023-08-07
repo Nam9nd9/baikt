@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.desktop {
+  margin: 0 auto;
+  width: 1024px;
+  height: 824px;
+  background-color: #1c233d;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.desktop .desktop-top {
+  margin-top: 23px;
+}
+.desktop .sapphire {
+  margin-top: 15px;
+  margin-left: 72px;
+  color: #e5e5e5;
+  font-family: Space Grotesk;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop p.desktop-top {
+  color: #e5e5e5;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.desktop .frame1 {
+  background-color: #1c233d;
+  margin-top: 18px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+}
+.desktop .frame1.seach .textarea {
+  background-color: #1c233d;
+  color: white;
+  width: 242px;
+}
+.desktop .frame1.signin {
+  margin-right: 75px;
+  display: inline-flex;
+  padding: 8px 31px 9px 29px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(
+    55deg,
+    rgba(191, 196, 238, 0.09) 15.52%,
+    #c367e6 58.75%,
+    rgba(190, 206, 239, 0) 100%
+  );
+}
+.frame2 .frame2-p {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
