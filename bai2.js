@@ -18,13 +18,14 @@ btn.addEventListener("click",()=>{
 
 
 picColor.addEventListener("click",()=>{ 
-    
-    const btnpic = document.getElementById("buttonpic")
-    btnpic.addEventListener("click",()=>{
         let value = picColor.value;
-        alert(value);
+        const maMau = document.getElementById("mamau");
+        maMau.innerText=value;
+        const btnCopy = document.getElementById("copy");
+        btnCopy.addEventListener("click",()=>{
+            navigator.clipboard.writeText(value);
+            alert("đã copy mã màu : " + value);
+        });
         body.style.backgroundColor=value;
-
-    })
 
 })
